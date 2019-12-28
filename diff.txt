@@ -1,0 +1,51 @@
+Only in hacked_root/etc/httpd/logs: access_log
+Only in hacked_root/etc/httpd/logs: error_log
+Only in hacked_root/etc/httpd/logs: ssl_access_log
+Only in hacked_root/etc/httpd/logs: ssl_error_log
+Only in hacked_root/etc/httpd/logs: ssl_request_log
+
+Files hacked_root/etc/issue and reference_root/etc/issue differ
+Files hacked_root/lib/issue and reference_root/lib/issue differ
+Files hacked_root/lib/os.release.d/issue-fedora and reference_root/lib/os.release.d/issue-fedora differ
+Files hacked_root/srv/chroot-mariadb/var/lib/mysql/aria_log.00000001 and reference_root/srv/chroot-mariadb/var/lib/mysql/aria_log.00000001 differ
+Files hacked_root/srv/chroot-mariadb/var/lib/mysql/aria_log_control and reference_root/srv/chroot-mariadb/var/lib/mysql/aria_log_control differ
+Files hacked_root/srv/chroot-mariadb/var/lib/mysql/ibdata1 and reference_root/srv/chroot-mariadb/var/lib/mysql/ibdata1 differ
+Files hacked_root/srv/chroot-mariadb/var/lib/mysql/ib_logfile0 and reference_root/srv/chroot-mariadb/var/lib/mysql/ib_logfile0 differ
+Files hacked_root/srv/chroot-mariadb/var/log/mariadb/mariadb.log and reference_root/srv/chroot-mariadb/var/log/mariadb/mariadb.log differ
+
+Only in hacked_root/srv/chroot-mariadb/var/tmp: x.txt
+
+Files hacked_root/usr/lib/issue and reference_root/usr/lib/issue differ
+Files hacked_root/usr/lib/os.release.d/issue-fedora and reference_root/usr/lib/os.release.d/issue-fedora differ
+File hacked_root/var/lib/gssproxy/default.sock is a socket while file reference_root/var/lib/gssproxy/default.sock is a socket
+
+Only in hacked_root/var/lib/NetworkManager: dhclient-654f0ae0-663a-4ed2-bc13-5332c11742e6-enp0s3.lease
+Only in hacked_root/var/lib/NetworkManager: dhclient-7625647c-766a-4ce2-87e2-b500b39e69ad-enp0s8.lease
+
+Files hacked_root/var/lib/NetworkManager/timestamps and reference_root/var/lib/NetworkManager/timestamps differ
+Files hacked_root/var/lib/rsyslog/imjournal.state and reference_root/var/lib/rsyslog/imjournal.state differ
+Files hacked_root/var/lib/systemd/random-seed and reference_root/var/lib/systemd/random-seed differ
+
+Only in hacked_root/var/log/audit: audit.log
+Only in hacked_root/var/log: btmp
+Only in hacked_root/var/log: cron
+Only in hacked_root/var/log/httpd: access_log
+Only in hacked_root/var/log/httpd: error_log
+Only in hacked_root/var/log/httpd: ssl_access_log
+Only in hacked_root/var/log/httpd: ssl_error_log
+Only in hacked_root/var/log/httpd: ssl_request_log
+
+Files hacked_root/var/log/journal/b74ff8c513354faa8633ee944bc76c73/system.journal and reference_root/var/log/journal/b74ff8c513354faa8633ee944bc76c73/system.journal differ
+
+Only in hacked_root/var/log: maillog
+
+Files hacked_root/var/log/mariadb/mariadb.log and reference_root/var/log/mariadb/mariadb.log differ
+
+Only in hacked_root/var/log: messages
+Only in hacked_root/var/log: secure
+Only in hacked_root/var/log: syslog
+Only in hacked_root/var/log: wtmp
+
+Files hacked_root/var/www/html/images/road.jpg and reference_root/var/www/html/images/road.jpg differ
+
+Only in hacked_root/var/www/html: r.php
