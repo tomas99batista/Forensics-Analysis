@@ -1,0 +1,16 @@
+default-duid "\000\001\000\001%\206\371D\010\000'1\341\020";
+lease {
+  interface "enp0s8";
+  fixed-address 10.0.3.15;
+  filename "Hacked.pxe";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.3.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.3.2;
+  option domain-name-servers 192.168.1.20;
+  option domain-name "local";
+  renew 6 2019/12/14 13:32:49;
+  rebind 6 2019/12/14 22:37:08;
+  expire 0 2019/12/15 01:37:08;
+}

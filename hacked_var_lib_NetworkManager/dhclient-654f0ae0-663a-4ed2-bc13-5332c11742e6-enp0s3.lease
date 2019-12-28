@@ -1,0 +1,13 @@
+default-duid "\000\001\000\001%\206\371D\010\000'(\355\242";
+lease {
+  interface "enp0s3";
+  fixed-address 192.168.56.130;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 1200;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  option dhcp-message "Ok, ok, here it is";
+  renew 6 2019/12/14 01:45:17;
+  rebind 6 2019/12/14 01:54:38;
+  expire 6 2019/12/14 01:57:08;
+}

