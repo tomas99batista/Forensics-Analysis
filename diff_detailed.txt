@@ -3,6 +3,7 @@ Only in hacked_root/etc/httpd/logs: error_log
 Only in hacked_root/etc/httpd/logs: ssl_access_log
 Only in hacked_root/etc/httpd/logs: ssl_error_log
 Only in hacked_root/etc/httpd/logs: ssl_request_log
+
 diff -r hacked_root/etc/issue reference_root/etc/issue
 8,11c8,11
 <     link/ether 08:00:27:28:ed:a2 brd ff:ff:ff:ff:ff:ff
@@ -18,6 +19,7 @@ diff -r hacked_root/etc/issue reference_root/etc/issue
 <        valid_lft 86271sec preferred_lft 86271sec
 ---
 >        valid_lft 86347sec preferred_lft 86347sec
+
 diff -r hacked_root/lib/issue reference_root/lib/issue
 8,11c8,11
 <     link/ether 08:00:27:28:ed:a2 brd ff:ff:ff:ff:ff:ff
@@ -33,6 +35,7 @@ diff -r hacked_root/lib/issue reference_root/lib/issue
 <        valid_lft 86271sec preferred_lft 86271sec
 ---
 >        valid_lft 86347sec preferred_lft 86347sec
+
 diff -r hacked_root/lib/os.release.d/issue-fedora reference_root/lib/os.release.d/issue-fedora
 8,11c8,11
 <     link/ether 08:00:27:28:ed:a2 brd ff:ff:ff:ff:ff:ff
@@ -48,10 +51,12 @@ diff -r hacked_root/lib/os.release.d/issue-fedora reference_root/lib/os.release.
 <        valid_lft 86271sec preferred_lft 86271sec
 ---
 >        valid_lft 86347sec preferred_lft 86347sec
+
 Binary files hacked_root/srv/chroot-mariadb/var/lib/mysql/aria_log.00000001 and reference_root/srv/chroot-mariadb/var/lib/mysql/aria_log.00000001 differ
 Binary files hacked_root/srv/chroot-mariadb/var/lib/mysql/aria_log_control and reference_root/srv/chroot-mariadb/var/lib/mysql/aria_log_control differ
 Binary files hacked_root/srv/chroot-mariadb/var/lib/mysql/ibdata1 and reference_root/srv/chroot-mariadb/var/lib/mysql/ibdata1 differ
 Binary files hacked_root/srv/chroot-mariadb/var/lib/mysql/ib_logfile0 and reference_root/srv/chroot-mariadb/var/lib/mysql/ib_logfile0 differ
+
 diff -r hacked_root/srv/chroot-mariadb/var/log/mariadb/mariadb.log reference_root/srv/chroot-mariadb/var/log/mariadb/mariadb.log
 845,1598d844
 < 191214  1:37:08 [Note] Initializing built-in plugins
@@ -808,7 +813,9 @@ diff -r hacked_root/srv/chroot-mariadb/var/log/mariadb/mariadb.log reference_roo
 < 191214  1:39:25 [Note] InnoDB: Shutdown completed; log sequence number 1782019
 < 191214  1:39:25 [Note] /usr/libexec/mysqld: Shutdown complete
 < 
+
 Only in hacked_root/srv/chroot-mariadb/var/tmp: x.txt
+
 diff -r hacked_root/usr/lib/issue reference_root/usr/lib/issue
 8,11c8,11
 <     link/ether 08:00:27:28:ed:a2 brd ff:ff:ff:ff:ff:ff
@@ -824,6 +831,7 @@ diff -r hacked_root/usr/lib/issue reference_root/usr/lib/issue
 <        valid_lft 86271sec preferred_lft 86271sec
 ---
 >        valid_lft 86347sec preferred_lft 86347sec
+
 diff -r hacked_root/usr/lib/os.release.d/issue-fedora reference_root/usr/lib/os.release.d/issue-fedora
 8,11c8,11
 <     link/ether 08:00:27:28:ed:a2 brd ff:ff:ff:ff:ff:ff
@@ -839,13 +847,17 @@ diff -r hacked_root/usr/lib/os.release.d/issue-fedora reference_root/usr/lib/os.
 <        valid_lft 86271sec preferred_lft 86271sec
 ---
 >        valid_lft 86347sec preferred_lft 86347sec
+
 File hacked_root/var/lib/gssproxy/default.sock is a socket while file reference_root/var/lib/gssproxy/default.sock is a socket
+
 Only in hacked_root/var/lib/NetworkManager: dhclient-654f0ae0-663a-4ed2-bc13-5332c11742e6-enp0s3.lease
 Only in hacked_root/var/lib/NetworkManager: dhclient-7625647c-766a-4ce2-87e2-b500b39e69ad-enp0s8.lease
+
 diff -r hacked_root/var/lib/NetworkManager/timestamps reference_root/var/lib/NetworkManager/timestamps
 46,47d45
 < 7625647c-766a-4ce2-87e2-b500b39e69ad=1576287428
 < 654f0ae0-663a-4ed2-bc13-5332c11742e6=1576287428
+
 diff -r hacked_root/var/lib/rsyslog/imjournal.state reference_root/var/lib/rsyslog/imjournal.state
 1c1
 < s=1ce8d3d4eeee4007af5899c30cf3711a;i=537b;b=271d94826d42454b804823b0859f40d3;m=84db0f4;t=599a00c481a9d;x=ff0caaebcd89c672
@@ -853,6 +865,7 @@ diff -r hacked_root/var/lib/rsyslog/imjournal.state reference_root/var/lib/rsysl
 ---
 > s=1ce8d3d4eeee4007af5899c30cf3711a;i=4f04;b=7c4406f8c7484bfe842eff7e9e09544e;m=3d1392a;t=5999ffe7edc22;x=c52bf69b9fa0a389
 \ No newline at end of file
+
 Binary files hacked_root/var/lib/systemd/random-seed and reference_root/var/lib/systemd/random-seed differ
 Only in hacked_root/var/log/audit: audit.log
 Only in hacked_root/var/log: btmp
@@ -864,11 +877,13 @@ Only in hacked_root/var/log/httpd: ssl_error_log
 Only in hacked_root/var/log/httpd: ssl_request_log
 Binary files hacked_root/var/log/journal/b74ff8c513354faa8633ee944bc76c73/system.journal and reference_root/var/log/journal/b74ff8c513354faa8633ee944bc76c73/system.journal differ
 Only in hacked_root/var/log: maillog
+
 diff -r hacked_root/var/log/mariadb/mariadb.log reference_root/var/log/mariadb/mariadb.log
 2,4d1
 < 191214 01:37:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
 < 191214  1:37:08 [Note] /usr/libexec/mysqld (mysqld 10.0.23-MariaDB) starting as process 929 ...
 < 191214 01:39:25 mysqld_safe mysqld from pid file /var/run/mariadb/mariadb.pid ended
+
 Only in hacked_root/var/log: messages
 Only in hacked_root/var/log: secure
 Only in hacked_root/var/log: syslog
